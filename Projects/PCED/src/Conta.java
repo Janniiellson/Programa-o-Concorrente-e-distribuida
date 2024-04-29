@@ -1,6 +1,6 @@
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-
+//classe conta pawa definir as contas e os saldos dos clientes, lojas e funcionarios
 public class Conta {
     private double saldo;
     private Lock lock = new ReentrantLock();
